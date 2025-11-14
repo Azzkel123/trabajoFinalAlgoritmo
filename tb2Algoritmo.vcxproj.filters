@@ -16,6 +16,9 @@
     <Filter Include="Resource">
       <UniqueIdentifier>{e5cd1672-241b-475d-80e3-2d0842378308}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivo">
+      <UniqueIdentifier>{9e432737-e63d-454a-8090-868319df3a39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Principal.cpp" />
@@ -28,6 +31,57 @@
     <ClCompile Include="FrmCreditos.cpp">
       <Filter>UI</Filter>
     </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Protagonista.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Aliado.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Recurso.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstaculo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Madre.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="IaRecurso.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mando.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Pregunta.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogoService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Fondo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GestorArchivoService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Progreso.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mundo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PreguntaService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MundoIaService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FrmMenu.h">
@@ -38,6 +92,57 @@
     </ClInclude>
     <ClInclude Include="FrmCreditos.h">
       <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Protagonista.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Aliado.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Recurso.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstaculo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Madre.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IaRecurso.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mando.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Pregunta.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogoService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="MundoIaService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Fondo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GestorArchivoService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Progreso.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mundo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PreguntaService.h">
+      <Filter>Service</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

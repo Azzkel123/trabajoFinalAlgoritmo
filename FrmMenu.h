@@ -10,7 +10,7 @@ namespace tb2Algoritmo {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
-	using namespace System::IO;  // IMPORTANTE: Para Path y File
+	using namespace System::IO; //Para Path y File
 
 	public ref class FrmMenu : public System::Windows::Forms::Form
 	{

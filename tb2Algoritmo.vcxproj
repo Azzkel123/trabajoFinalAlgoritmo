@@ -113,10 +113,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aliado.cpp" />
+    <ClCompile Include="Dialogo.cpp" />
+    <ClCompile Include="DialogoService.cpp" />
+    <ClCompile Include="Fondo.cpp" />
     <ClCompile Include="FrmCreditos.cpp" />
     <ClCompile Include="FrmIntrucciones.cpp" />
     <ClCompile Include="FrmMenu.cpp" />
+    <ClCompile Include="GestorArchivoService.cpp" />
+    <ClCompile Include="IaRecurso.cpp" />
+    <ClCompile Include="Madre.cpp" />
+    <ClCompile Include="Mando.cpp" />
+    <ClCompile Include="Mundo.cpp" />
+    <ClCompile Include="MundoIaService.cpp" />
+    <ClCompile Include="Obstaculo.cpp" />
+    <ClCompile Include="Pregunta.cpp" />
+    <ClCompile Include="PreguntaService.cpp" />
     <ClCompile Include="Principal.cpp" />
+    <ClCompile Include="Progreso.cpp" />
+    <ClCompile Include="Protagonista.cpp" />
+    <ClCompile Include="Recurso.cpp" />
+    <ClCompile Include="Sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -126,6 +143,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Aliado.h" />
+    <ClInclude Include="Dialogo.h" />
+    <ClInclude Include="DialogoService.h" />
+    <ClInclude Include="Fondo.h" />
     <ClInclude Include="FrmCreditos.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -135,6 +156,19 @@
     <ClInclude Include="FrmMenu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="GestorArchivoService.h" />
+    <ClInclude Include="IaRecurso.h" />
+    <ClInclude Include="Madre.h" />
+    <ClInclude Include="Mando.h" />
+    <ClInclude Include="Mundo.h" />
+    <ClInclude Include="MundoIaService.h" />
+    <ClInclude Include="Obstaculo.h" />
+    <ClInclude Include="Pregunta.h" />
+    <ClInclude Include="PreguntaService.h" />
+    <ClInclude Include="Progreso.h" />
+    <ClInclude Include="Protagonista.h" />
+    <ClInclude Include="Recurso.h" />
+    <ClInclude Include="Sprite.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FrmMenu.resx">
