@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "MundoIAService.h"
 
-namespace MundoHamp {
+namespace tb2Algoritmo{
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -74,7 +74,7 @@ namespace MundoHamp {
 		/// Required designer variable.
 		/// </summary>
 
-
+    private:
 		MundoIAService* service;
 	private: System::Windows::Forms::Timer^ timer1;
 		   Direccion teclaPresionada;

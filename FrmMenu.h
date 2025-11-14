@@ -1,6 +1,7 @@
 #pragma once
 #include "FrmIntrucciones.h"
 #include "FrmCreditos.h"
+//#include "FrmMundoIA.h"
 #include <Windows.h>
 
 namespace tb2Algoritmo {
@@ -70,6 +71,7 @@ namespace tb2Algoritmo {
 			this->btnJugar->Size = System::Drawing::Size(194, 71);
 			this->btnJugar->TabIndex = 1;
 			this->btnJugar->UseVisualStyleBackColor = true;
+			this->btnJugar->Click += gcnew System::EventHandler(this, &FrmMenu::btnJugar_Click);
 			// 
 			// lblTitulo
 			// 
@@ -169,6 +171,12 @@ private: System::Void btnSalir_Click(System::Object^ sender, System::EventArgs^ 
 	}
 }
 private: System::Void axWindowsMediaPlayer1_Enter(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void btnJugar_Click(System::Object^ sender, System::EventArgs^ e) {
+	/*FrmMundoIA^ frmMundoIA = gcnew FrmMundoIA();
+	this->Hide();
+	frmMundoIA->ShowDialog();
+	this->Show();*/
 }
 };
 }
