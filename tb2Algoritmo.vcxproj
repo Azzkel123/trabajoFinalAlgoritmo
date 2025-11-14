@@ -163,6 +163,8 @@
   <ItemGroup>
     <Media Include="D:\CICLO2\ALGORITMOS\ENTREGAS HITOS VERSION 2\hito2\HITO2_JUEGO\FondoMenu.mp4">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </Media>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

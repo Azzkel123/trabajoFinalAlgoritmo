@@ -60,6 +60,7 @@ namespace tb2Algoritmo {
 			this->axWindowsMediaPlayer1->OcxState = (cli::safe_cast<System::Windows::Forms::AxHost::State^>(resources->GetObject(L"axWindowsMediaPlayer1.OcxState")));
 			this->axWindowsMediaPlayer1->Size = System::Drawing::Size(1259, 936);
 			this->axWindowsMediaPlayer1->TabIndex = 0;
+			this->axWindowsMediaPlayer1->Enter += gcnew System::EventHandler(this, &FrmMenu::axWindowsMediaPlayer1_Enter);
 			// 
 			// btnJugar
 			// 
@@ -166,6 +167,8 @@ private: System::Void btnSalir_Click(System::Object^ sender, System::EventArgs^ 
 		MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
 		Application::Exit();
 	}
+}
+private: System::Void axWindowsMediaPlayer1_Enter(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
