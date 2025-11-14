@@ -120,6 +120,7 @@
     <ClCompile Include="FrmCreditos.cpp" />
     <ClCompile Include="FrmIntrucciones.cpp" />
     <ClCompile Include="FrmMenu.cpp" />
+    <ClCompile Include="FrmMundoIA.cpp" />
     <ClCompile Include="GestorArchivoService.cpp" />
     <ClCompile Include="IaRecurso.cpp" />
     <ClCompile Include="Madre.cpp" />
@@ -156,6 +157,9 @@
     <ClInclude Include="FrmMenu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="FrmMundoIA.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="GestorArchivoService.h" />
     <ClInclude Include="IaRecurso.h" />
     <ClInclude Include="Madre.h" />
@@ -173,6 +177,9 @@
   <ItemGroup>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMundoIA.resx">
+      <DependentUpon>FrmMundoIA.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

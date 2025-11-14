@@ -82,6 +82,9 @@
     <ClCompile Include="MundoIaService.cpp">
       <Filter>Service</Filter>
     </ClCompile>
+    <ClCompile Include="FrmMundoIA.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FrmMenu.h">
@@ -143,6 +146,9 @@
     </ClInclude>
     <ClInclude Include="PreguntaService.h">
       <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="FrmMundoIA.h">
+      <Filter>UI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
